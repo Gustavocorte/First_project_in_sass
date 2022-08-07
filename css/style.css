@@ -1,17 +1,19 @@
-/* Error: Expected digit.
- *   ,
- * 2 | $width-btn: 85px .btn1
- *   |                   ^
- *   '
- *   sass\style.scss 2:19  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected digit.\a   \2577 \a 2 \2502  $width-btn: 85px .btn1\d\a   \2502                    ^\a   \2575 \a   sass\\style.scss 2:19  root stylesheet";
+.classe1 ul {
+  background-color: rgb(80, 0, 0);
 }
+.classe1 li {
+  background-color: rgb(0, 0, 71);
+  padding: 10px 0px;
+  color: #fff;
+}
+.classe1 button {
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+}
+.classe1 button:hover {
+  background-color: red;
+  transition: 500ms;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,12 +1,28 @@
-$btn-color: #ff4043;
-$width-btn: 85px .btn1
+// .classe1 ul {
+//     background-color: red;
+// }
 
-.btn1 {
-    width: $width-btn;
-    background-color: $btn-color;
-}
+// .classe1 li {
+//     background-color: blue;
+// }
 
-.btn2 {
-    width: $width-btn;
-    background-color: $btn-color;
+.classe1 {
+    ul{
+        background-color: rgb(80, 0, 0);
+    }
+    li{
+        background-color: rgb(0, 0, 71);
+        padding: 10px 0px;
+        color: #fff;
+    }
+    button{
+        background-color: green;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover{
+            background-color: red;
+            transition: 500ms;
+        }
+    }
 }
